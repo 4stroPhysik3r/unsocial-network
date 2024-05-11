@@ -1,0 +1,17 @@
+# Use the official Golang image as the base image
+FROM golang:latest
+
+# Set the working directory inside the container
+WORKDIR /go/src/app
+
+# Copy the backend source code into the container
+COPY /backend .
+
+# Build the backend application
+RUN go build -o main .
+
+# Expose the backend port
+EXPOSE 8000
+
+# Command to run the backend application
+CMD ["./main"]

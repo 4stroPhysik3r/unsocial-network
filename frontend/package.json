@@ -1,0 +1,23 @@
+{
+  "name": "social-network",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@vue/cli": "^5.0.8",
+    "core-js": "^3.8.3",
+    "emoji-mart-vue-fast": "^15.0.1",
+    "vue": "^3.2.13",
+    "vue-emoji-mart": "^1.0.5",
+    "vue-emoji-picker": "^1.0.3",
+    "vue-router": "^4.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  }
+}
